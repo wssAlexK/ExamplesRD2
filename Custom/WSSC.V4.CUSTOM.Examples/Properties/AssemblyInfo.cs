@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WSSC.V4.DMS.Module")]
+[assembly: AssemblyTitle("WSSC.V4.CUSTOM.Examples")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("WSS-Consulting")]
-[assembly: AssemblyProduct("WSSC.V4.DMS.Module")]
+[assembly: AssemblyProduct("WSSC.V4.CUSTOM.Examples")]
 [assembly: AssemblyCopyright("Copyright © WSS-Consulting 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("42de5bd0-0eca-4022-a23c-82ecf5d5a265")]
+[assembly: Guid("baa42967-0b93-42d8-9653-00838a8c7302")]
 
 // Version information for an assembly consists of the following four values:
 //

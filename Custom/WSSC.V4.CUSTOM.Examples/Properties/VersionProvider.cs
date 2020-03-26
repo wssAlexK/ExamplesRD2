@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WSSC.V4.DMS.Module
+namespace WSSC.V4.CUSTOM.Examples
 {
     /// <summary>
     /// Сведения о версии модуля.
@@ -18,16 +18,16 @@ namespace WSSC.V4.DMS.Module
         /// <summary>
         /// Полное название сборки.
         /// </summary>
-        public const string AssemblyName = "WSSC.V4.DMS.Module,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5";
+        public const string AssemblyName = "WSSC.V4.CUSTOM.Examples,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5";
 
         /// <summary>
         /// Название модуля.
         /// </summary>
-        public const string ModuleName = "WSSC.V4.DMS.Module";
+        public const string ModuleName = "WSSC.V4.CUSTOM.Examples";
 
         /// <summary>
         /// Относительный путь к модулю.
         /// </summary>
-        public const string ModulePath = "/_layouts/WSS/WSSC.V4.DMS.Module";
+        public const string ModulePath = "/_layouts/WSS/WSSC.V4.CUSTOM.Examples";
     }
 }
