@@ -1,0 +1,82 @@
+﻿<TypeDefinitions>
+  <AssemblyName>WSSC.V4.DMS.Module,Version=4.0.0.0,Culture=neutral,PublicKeyToken=9f4da00116c38ec5</AssemblyName>
+
+  <!--Определения типов полей-->
+  <FieldDefinitions>
+
+    <!-- Пример 
+    <FieldDefinition>
+      <Type>SPUserField</Type>
+      <ClassName>WSSC.V4.SYS.DBFramework.SPUserField</ClassName>
+      <FactoryClassName>WSSC.V4.SYS.DBFramework.SPUserFieldFactory</FactoryClassName>
+      <TypeDisplayName>Пользователь SharePoint</TypeDisplayName>
+      <UserCreatable>false</UserCreatable>
+      <ListFormControlSource>/_layouts/WSS/DBF/SystemFields/SPMemberFields/SPMemberFieldControl.ascx</ListFormControlSource>
+    </FieldDefinition>
+    -->
+    
+    
+  </FieldDefinitions>
+
+    <!-- Определения типов контролов -->
+  <ListFormWebControlDefinitions>
+
+    <!-- Пример 
+    <ListFormWebControlDefinition>
+      <Type>CustomFieldNameControl</Type>
+      <ClassName>WSSC.V4.DMS.OMK.Controls.CustomFieldNameControl</ClassName>
+      <FactoryClassName>WSSC.V4.DMS.OMK.Controls.CustomFieldNameControl+Factory</FactoryClassName>
+      <DisplayName>Контрол кастомного переименования полей</DisplayName>
+    </ListFormWebControlDefinition>
+    -->
+    
+    
+  </ListFormWebControlDefinitions>
+
+  <!--Определения типов обработчиков-->
+  <ItemHandlerDefinitions>
+    
+    <!-- Пример
+    <ItemHandlerDefinition>
+      <Type>DBLanguageHandler</Type>
+      <ClassName>WSSC.V4.SYS.DBFramework.Internal.DBLanguageHandler</ClassName>
+      <HandlerDisplayName>Обработчик смены языка по умолчанию</HandlerDisplayName>
+    </ItemHandlerDefinition>
+    -->
+    
+    
+  </ItemHandlerDefinitions>
+
+  <!--Определения типов периодических процедур-->
+  <JobDefinitions>
+    
+    <!-- Пример 
+    <JobDefinition>
+      <Type>WakeUpJob</Type>
+      <ClassName>WSSC.V4.SYS.DBFramework.Administration.WakeUpJob</ClassName>
+      <JobDisplayName>"Будит" веб-приложение сайта SharePoint на веб-сервере, выполняя http-запрос к сайту.</JobDisplayName>
+    </JobDefinition>
+    -->
+    
+    
+  </JobDefinitions>
+  
+  <!--Типы данных, хранящихся в таблицах, подлежащие разрезанию или перемещению между базами данных.-->
+  <DataObjectTypes>
+    <!--Пример
+    <DataObjectType>WSSC.V4.DMS.Reports.Service.RPContentRecord</DataObjectType>
+    -->
+  </DataObjectTypes>
+
+  <ReportProgramColumnDefinitons>
+    <!-- Пример
+    <ReportProgramColumnDefinition>
+      <Type>TRC_InformationOnEnforcementProceedings</Type>
+      <ClassName>WSSC.V4.DMS.TRC.Reports.Columns.InformationOnEnforcementProceedings</ClassName>
+      <Name>Сведения об исполнительном производстве</Name>
+    </ReportProgramColumnDefinition>
+    -->
+    
+    
+  </ReportProgramColumnDefinitons>
+</TypeDefinitions>

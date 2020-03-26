@@ -1,0 +1,14 @@
+﻿.OPTION EXPLICIT
+.Set CabinetNameTemplate=WSSC.V4.DMS.Module.wsp
+.set DiskDirectoryTemplate=CDROM
+.Set CompressionType=MSZIP
+.Set UniqueFiles="ON"
+.Set Cabinet=on
+.Set DiskDirectory1=.
+
+
+
+..\Types_WSSC.V4.DMS.Module.xml					LAYOUTS\WSS\DBF\Types\Types_WSSC.V4.DMS.Module.xml
+..\bin\WSSC.V4.DMS.Module.dll
+
+Manifest.xml
