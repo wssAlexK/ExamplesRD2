@@ -11,6 +11,7 @@ namespace WSSC.V4.DMS.FOS.Controls.ClearFieldsByChangeField
     /// Контрол Очищение нескольких полей при изменении ключевого поля.
     /// </summary>
 	public class ClearFieldsByChangeField : DBListFormWebControl
+    {
 
         protected ClearFieldsByChangeField(DBListFormWebControlMetadata metadata, DBListFormControl listForm)
             : base(metadata, listForm) { }
