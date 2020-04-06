@@ -9,7 +9,7 @@ using WSSC.V4.SYS.Fields.Lookup;
 namespace WSSC.V4.DMS.TMK.EDMS.Handlers
 {
     /// <summary>
-    /// Обработчик на проставления подразделения в зависимоти от компании пользователя
+    /// Обработчик на проставления подразделения в зависимости от компании пользователя
     /// </summary>
     public class DepartamentsOnStageHandler : DBItemHandler
     {
