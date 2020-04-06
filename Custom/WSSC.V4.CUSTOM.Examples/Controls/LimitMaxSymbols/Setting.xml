@@ -1,8 +1,0 @@
-﻿<Settings>
-
-  <Setting listname="Contracts" webname="dms/contracts">
-    <Field name="Том" maxchars="9" />
-    <Field name="Регистрационный номер" maxchars="8" />      
-  </Setting>
-
-</Settings>

@@ -1,5 +1,0 @@
-﻿<Setting>
-  <List name="Incoming" web="dms" >
-    <Field parent="fieldmain" childs="field2;field3" />
-  </List>
- </Setting>
